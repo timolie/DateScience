@@ -1,0 +1,19 @@
+man sieht an btc-return chart dass bitcoin return einen mittelwert leicht über null hat also btc im schnitt steigt
+generell ist return aber normalverteilter als gedacht
+
+
+scatter plot zeigt klare korrelation zwischen nasdaq und sundp
+muss nur alles unter diagonale gucken rest ist gespiegelt
+muss skalierung beachten 
+sieht aber aus als gäbe es keine korrelation
+sieht volatilität bei btc ist riesig in vergleich zu anderne (siehe achsen)
+
+
+cluster over time
+sieht dass innerhalb eines zyklus oft wiederholende muster auftreten so ist in cluster 3 und 5 eine wiederholende sequenz
+guckt man cluster over chart data daneben sieht man diese schulter patterns
+ein cluster ist absturz
+ein cluster ist starker anstieg in lila
+ein cluster in blau ist anstieg in diesem bull run der sich zweimal wiederholt hat
+mit jeweils dump danach
+

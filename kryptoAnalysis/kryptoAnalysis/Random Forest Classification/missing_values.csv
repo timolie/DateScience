@@ -1,0 +1,51 @@
+Feature,Missing Values in %
+Regression Line,0.0
+Bar Index,0.0
+Basis,0.0
+Upper,0.0
+Lower,0.0
+ADR,0.0
+Bollinger Bands Width,0.0
+btc exchange trade vol/ on chain transactin vol,0.0
+btc sopr momentum onchain,0.0
+FEAR AND GREED,0.0
+US Interest Rates,0.0
+EU Interest Rates,0.0
+UK Interest Rates,0.0
+Histogram,0.0
+MACD,0.0
+Signal,0.0
+RSI,0.0
+RSI-based MA,0.0
+STOCHASTIC OSCILLATOR,0.0
+STOCHASTIC OSCILLATOR 2,0.0
+SOPR,0.0
+SOPR Smoothing,0.0
+Upper Bollinger Band,0.0
+Lower Bollinger Band,0.0
+btc active adresses,0.0
+btc new adresses,0.0
+btc hashrate,0.0
+btc totalvolume,0.0
+month,0.0
+dayInMonth,0.0
+weekday,0.0
+timeToNextHalving,0.0
+Decision Variable D,0.03
+Decision Variable D enhanced,0.03
+Decision Variable M enhanced,0.8099999999999999
+Decision Variable W,0.19
+Decision Variable M,0.8099999999999999
+EMA_Closest_TOP,0.0
+EMA_Closest_BOTTOM,0.0
+SMA_Closest_TOP,0.0
+SMA_Closest_BOTTOM,0.0
+BB_Closest,0.0
+NASDAQ_DLY_NDX_1D_OPEN_ONE_DAY_TREND,0.0
+NASDAQ_DLY_NDX_1D_OPEN_ONE_MONTH_TREND,0.0
+OANDA_XAUUSD_1D_OPEN_ONE_DAY_TREND,0.0
+OANDA_XAUUSD_1D_OPEN_ONE_MONTH_TREND,0.0
+SP_SPX_1D_OPEN_ONE_DAY_TREND,0.0
+SP_SPX_1D_OPEN_ONE_MONTH_TREND,0.0
+TVC_DXY_1D_OPEN_ONE_DAY_TREND,0.0
+TVC_DXY_1D_OPEN_ONE_MONTH_TREND,0.0

@@ -1,0 +1,54 @@
+## Hinweise zu den features im Ordner daten/README
+
+#### approximate entropy: 
+
+guckt nach sich wiederholenden sequenzen, und sagt damit was aus über die regularität bzw. unvorhersagbarkeit von daten 
+kleiner wert heißt gut vorhersagbar, großer wert heißt fast random 
+
+
+#### dickey fuller test
+
+testet mit hypothesentest, ob in zeitreihe ein signifikanter Trend ist
+H0: da ist trend
+test auf stationarität
+stationär meint:
+Erwartungswert unabhängig von zeitpunkt
+die varianz für alle zeitpunkte endlich ist und auch gleich
+kovarianzen zwischen zwei zeitpunkten hängen nicht von von zeitpunkt selbst ab sondern nur von deren abstand 
+--> stationär heißt es ist nicht von zeitpunkt abhängig
+--> wollen stationäre daten (ggf. daten in abstände oder log umwandeln wenn das nicht so ist)
+--> man sagt ein nicht stationärer prozess hat eine einheitswurzel
+<=0.05 heißt es ist stationär
+>0.05 heißt es ist nicht stationär
+
+
+#### korrelation
+
+zwischen -1 und 1
+korrelation nahe 0 heißt variablen sind unabhängig
+1 heißt steigt das eine dann auch das andere
+-1  "   fällt "
+
+#### granger causality
+
+x ist granger kausal  für y wenn y zum zeitpunkt t besser vorhergesagt werden kann, wenn man den wert von x zum zeitpunkt t-1 kennt
+also testet ob eine gegebene zeitreihe x nüzlich ist um zeitreihe y vorherzusagen
+x muss statistisch signifikante verbesserungen erzielen
+H0 ist dass X unnötig ist um y vorherzusagen ab wann man annimmt, dass H0 verowrfen wird hängt von signifikanzniveau alpha ba
+p value < 0.05 heißt x hilf bei vorhersage von y
+
+
+#### varmax model
+
+
+
+
+#### exponential moving average (ema)
+
+vergangenheit in der nahen vergangenheit werden stärker gewichtet
+
+
+#### SMA
+
+gleiches gewicht für alle daten 
+einfach durchschnitt

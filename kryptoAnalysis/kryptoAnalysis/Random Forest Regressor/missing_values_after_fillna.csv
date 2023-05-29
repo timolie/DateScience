@@ -1,0 +1,75 @@
+Feature,Missing Values in %
+open,0.0
+Regression Line,0.0
+Bar Index,0.0
+Basis,0.0
+Upper,0.0
+Lower,0.0
+ADR,0.0
+Bollinger Bands Width,0.0
+EMA,0.0
+%EX,0.0
+hashColor,0.0
+FEAR AND GREED,0.0
+US Interest Rates,0.0
+EU Interest Rates,0.0
+UK Interest Rates,0.0
+Histogram,0.0
+MACD,0.0
+Signal,0.0
+RSI,0.0
+RSI-based MA,0.0
+STOCHASTIC OSCILLATOR,0.0
+STOCHASTIC OSCILLATOR 2,0.0
+SOPR,0.0
+SOPR Smoothing,0.0
+Upper Bollinger Band,0.0
+Lower Bollinger Band,0.0
+btc active adresses,0.0
+btc sending adresses,0.0
+btc receiving adresses,0.0
+btc new adresses,0.0
+btc blocks,0.0
+btc blocksminted,0.0
+btc meanblocksize,0.0
+btc totalblocksize,0.0
+btc difficulty,0.0
+btc hashrate,0.0
+btc totalvolume,0.0
+btc totalvolume usd,0.0
+month,0.0
+dayInMonth,0.0
+weekday,0.0
+timeToNextHalving,0.0
+"NASDAQ_DLY NDX, 1D open",0.0
+"NASDAQ_DLY NDX, 1D high",0.0
+"NASDAQ_DLY NDX, 1D low",0.0
+"NASDAQ_DLY NDX, 1D close",0.0
+"NASDAQ_DLY NDX, 1D EMA20",0.0
+"NASDAQ_DLY NDX, 1D EMA50",0.0
+"NASDAQ_DLY NDX, 1D EMA100",0.0
+"NASDAQ_DLY NDX, 1D EMA200",0.0
+"NASDAQ_DLY NDX, 1D SMA20",0.0
+"NASDAQ_DLY NDX, 1D SMA50",0.0
+"NASDAQ_DLY NDX, 1D SMA100",0.0
+"NASDAQ_DLY NDX, 1D SMA2000",0.0
+SMA20 > SMA50,0.0
+SMA20 > SMA100,0.0
+SMA20 > SMA200,0.0
+SMA50 > SMA100,0.0
+SMA50 > SMA200,0.0
+SMA100 > SMA200,0.0
+EMA 20 > EMA 50,0.0
+EMA 20 > EMA 100,0.0
+EMA 20 > EMA 200,0.0
+EMA 50 > EMA 100,0.0
+EMA 50 > EMA 200,0.0
+EMA 100 > EMA 200,0.0
+open > SMA20,0.0
+open > SMA50,0.0
+open > SMA100,0.0
+open > SMA200,0.0
+open > EMA 20,0.0
+open > EMA 50,0.0
+open > EMA 100,0.0
+open > EMA 200,0.0

@@ -1,0 +1,7 @@
+Long short-term memory
+spezielle art eines rekurrenten neuronalen netzwerkes 
+es hat quasi kurzzeitgedächtnis
+hat sich bei time series prediction als besonders gut herausgestellt
+
+merkt sich zur verbesserung der gewichte versch. gates um besser zu lernen als andere netze
+

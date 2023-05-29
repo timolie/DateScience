@@ -1,0 +1,65 @@
+voraussetzungen - pre processing
+lineare regression
+sagt numerische werte voraus (hier den preis)
+nimmt an dass der erwartete output wert gegeben ein erwartungswert E[y|x] linear ist 
+also nimmt lineares modell an wobei yi = wxi + noisei ist 
+wobei noise unabhängig normalverteilt mit mittelwert 0 und konstanter varianz angenommmen wirt
+das wurde hier mit dem residual gemessen (also dem abstand von prediction zu tatsächlichem wert) man sieht unser modell ist sehr sehr schlecht weil einfach kein linearer zusammenhang angenommen werden kann
+
+
+logistische regression
+nimmt an daten X sind bedingt unabhängig gegeben ouptut y
+gehe von gausverteilung aus 
+braucht also daten ohne multikollinearität - wir haben deshalb sehr viele features verworfen
+multikollinearität heißt zwei oder mehr variablen sind stark korrelliert
+multikollinearität hat instabile modelle zur folge und macht modell ungenau außerdem ist modellinterpretation nicht mehr einfach weil einfluss einer variablen auf stark korrellierte verteilt wurde
+wert > 5 heißt starke kollinearität
+testen das mit variance_inflation_factor
+
+checken in datei noch nach ausreißern also werten die um mehr als 3 standardabweichungen abweichen, da bitcoin aber höchst volatil ist ist das sehr oft und kann nicht rausgefiltet werden, da gerade temproräre ausreißer interessant sind
+
+
+
+kombiniere beide verfahren normal mit forward selection, backward elimination also nehme feature hinzu, dass das ergebnis am bestern verbessert, lösche attribut, dass ergebnis am meisten verbessert wenn es gelöscht ist
+(wurde hier nicht gemacht, wir haben einfach komplett unkorrelierte attribute genommen)
+
+Lineare Regression kann zwar nicht Zukunft vorhersagen, aber den tagesaktuellen Preis von Bitcoin in Abhängigkeit von anderen aktuellen Feature Werten
+
+kann man diese Features besser in der Zukunft vorhersagen, so ermöglicht dies eine Vorhersage von Bitcoin in der Zukunft, wenn man die entsprechenden Features in der Zukunft vorhersagen kann
+
+wir haben jetzt nicht für jedes Feature eine prediction in die Zukunft erstellt, 
+aber TimeToNext Halving ist einfach berechenbar
+und auch die anderen Features sind deutlich einfacher vorherzusagen als der Bitcoin Preis selbst
+
+man sieht die multiple linear regression ist ganz ok aber keineswegs gut genug um damit traden zu können 
+außerdem predicted sie auch negative preise die es natürlich bazufangen gilt
+
+
+logistische Regression
+wie lineare regression aber kann nur klassen vorhersagen , in dem fall, ob bitcoin steigt oder fällt an dem tag
+hier sieht man,, dass jeder predictete fall des bitcoin preises falsch predictet wurde 
+außerdem geht das modell einfach fast immer von steigenen bitcoin preisen aus - was dem klassischen modell des hodl entspricht 
+
+
+single linear regression
+testen ergebnis mit r2 score  oder auch Bestimmtheitsmaß der die correlation unserer prediction mit der tatsächlichen ausgabe misst 
+ein wert von 0 heißt dass kein linearer zusammenhang besteht und das modell unbrauchbar ist
+ein wert von 1 heißt das modell ist perfekt und die daten sind deterministisch
+wir haben wert von 0.044 also absolut scheiß vorhersage der daten!
+
+Grafiken zu Halving
+single linear regression ist natürlich weniger gut als mulitvariate linear regression 
+man sieht bei price to next halving ein sich wiederholendes muster  des preises mit einem peak bei 850 tagen ca
+bei price since or to next halving sieht man zwei peaks die auch beim aktuellen zyklus sehr stark über den peaks des alten zyklus liegen
+d.h. die vermutung dass dieser zyklus anders ist als der alte bewahrheitet sich nicht
+man sieht zyklisches traden von bitcoin lohnt sich
+
+
+
+data mit vs data ohne correlation
+man siehr vor allem, dass alle ema, sma low high eine hohe korrelation aufweisen und einfach redundant sind
+interessant ist, dass btc totalvolume und eth totalvolume unkorreliert sind was aber daran liegen kann, dass eth am anfang einen von bitcoin unabhängigen preis von null hat da es noch nicht exisitert hat
+interessatn auch ist dass spent output profit ratio und sopr momentum unkorreliert sind was man nicht erwarten würde
+eine leichte korrelation dagegen sieht man bei spent output profit ratio und timetonexthalving, was man auch erwarten würde, da das halving date den preis maßgeblich beeinflusst
+
+spend output profit ratio
